@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './variables/typo';
+@import './variables/colores';
+@import './variables/responsive';
+
+@import './secciones/mainindex';
+@import './secciones/headerindex';
+@import './secciones/footerindex';
+@import './secciones/mainSneakers';
+@import './secciones/mainAbrigos';
+@import  './secciones/mainRemeras';
+@import './secciones/mainCamperas';
+@import './secciones/mainPantalones';
+@import './secciones/mainFormulario'
+
+
