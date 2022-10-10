@@ -98,6 +98,10 @@
       background-color: $colorFondo;
     
       &__shop {
+        button {
+          text-align: center;
+          color: red;
+        }
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -197,3 +201,15 @@
       }
     }
   }
+@media (max-width: 375px) {
+  .abrigos {
+    &__title {
+      h2{
+        font-size: 40px;
+      }
+      p{
+        font-size: 30px;
+      }
+    }
+  }
+}

@@ -137,8 +137,17 @@ font-size: 75px;
       }
     }
   }
-  @media (max-width:330px){
+  @media (max-width:375px){
     .camperas{
+      &__titulo {
+        h2{
+          font-size: 20px;
+
+        }
+        p{
+          font-size: 20px;
+        }
+      }
        &__banner{
       img{
         height: 150px;
